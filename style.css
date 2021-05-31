@@ -11,7 +11,6 @@
 }
 
 body {
-
 }
 
 .header {
@@ -20,26 +19,25 @@ body {
     margin: 0 auto;
     font-weight: 700;
     width: 1100px;
-    padding: 30px 0;
-
-
+    padding: 15px 0;
 }
 
 .header_title_one {
     font-size: 2.5rem;
     color: var(--main-color);
+    text-decoration: none;
 }
 
 .header_items {
     display: flex;
     justify-content: space-around;
     align-items: center;
-
 }
 
-.header_items p {
+.header_items a {
     margin-left: 40px;
-
+    text-decoration: none;
+    color: #000000;
 }
 
 .bg-image {
@@ -54,19 +52,105 @@ main {
     background-size: cover;
     background-position: center;
     height: 100vh;
-
 }
 
 .main {
+}
+
+.container {
     display: flex;
-    width: 100%;
+    width: 1100px;
+    height: 400px;
+    align-items: center;
+    margin: 0 auto;
+    padding-top: 100px;
 }
 
 .into_info {
-    width: 50%;
+    width: 60%;
 
 }
 
+.personal_loan {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--accent-color);
+}
+
+.put_your_plans {
+    font-size: 4rem;
+    font-weight: 700;
+    color: var(--main-color);
+    margin-bottom: 60px;
+}
+
+.three_items_with_icon {
+    text-decoration: none;
+    display: flex;
+}
+
+.three_items {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-right: 40px;
+}
+
+.icon {
+    height: 40px;
+    width: 30px;
+    margin-bottom: 10px;
+}
+
 .intro_info {
-    width: 50%;
+    height: 100%;
+    width: 40%;
+    background-color: #fff;
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, .13);
+
+}
+
+.lets_change_your_life {
+    font-size: 2rem;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+}
+
+.label_text {
+    font-size: 0.8rem;
+    font-weight: 600;
+    margin-bottom: 12px;
+    margin-top: 8px;
+}
+
+.input_text {
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 1px solid #E6E6E6;
+    padding: 4px;
+
+}
+
+.send_button {
+
+}
+
+input[type=submit] {
+    background-color: var(--accent-color);
+    border-style: none;
+    padding: 20px 30px 20px 30px;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #fff;
+    margin-top: 40px;
 }
